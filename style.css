@@ -1,0 +1,515 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    height: auto;
+    background-color: #3b4c97;
+}
+
+.top-cont {
+    float: left;
+    margin: 6px 0px;
+    padding: 0px 6px;
+}
+
+.top-cont p {
+
+    color: #d2d4e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+.outer-link {
+    float: right;
+
+}
+
+.outer-link ul {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+    list-style: none;
+}
+
+
+.outer-link ul li {
+    margin: 0px;
+    padding: 0px 15px;
+
+    background: #3c536d;
+    border-left: 1px solid #1f3d5f;
+
+}
+
+.outer-link ul li a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #b0b1b8;
+}
+
+.outer-link li:hover {
+    background: #d82e30;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: #fff url(../images/polygol.jpg) right top no-repeat;
+    background-size: 100%;
+    padding: 10px 0px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.container2-fluid {
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 5px;
+}
+
+.header-logo ul {
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.header-logo ul li {
+    padding: 0px 40px
+}
+
+.head-contact {
+    background: url(https://img.icons8.com/?size=48&id=103876&format=png) left center no-repeat;
+    padding: 5px 0px 5px 60px;
+}
+
+.head-contact span {
+    padding: 0px 10px;
+    color: #5F5D5D;
+    font-size: 15px;
+    font-family: 'OpenSansRegular';
+}
+
+.head-contact a {
+    padding: 0px 10px;
+    color: #878787;
+    font-size: 15px;
+    font-family: 'OpenSansRegular';
+    font-weight: normal;
+}
+
+.menu-outer {
+    background: #3b4c97;
+}
+
+.head-contact a:hover {
+    color: #d82e30;
+}
+
+.nav-Menu {
+    display: none;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px 20px
+}
+
+.menu {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.nav ul {
+    list-style: none;
+    zoom: 1;
+    width: 100%;
+
+}
+
+.nav:before,
+.nav:after {
+    content: " ";
+    display: table
+}
+
+.nav:after {
+    clear: both
+}
+
+.nav a {
+    margin: 0 1px 0 0
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav li a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 35px 7px 35px;
+    font-family: monospace;
+    text-transform: none;
+    margin-right: 15px;
+}
+
+.nav li a:hover {
+
+    color: #fff !important;
+    background: #d82e30;
+}
+
+
+
+.nav>li {
+    float: left;
+}
+
+.nav>li>a {
+    display: block;
+}
+
+.nav li ul {
+    position: absolute;
+    left: -9999px
+}
+
+.nav li ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.nav>li.hover>ul {
+    left: 3px;
+    width: 200px;
+    border-radius: 0 0 6px 6px
+}
+
+.nav li li.hover ul {
+    left: 100%;
+    top: 0
+}
+
+
+.carousel-caption {
+    margin: 50px -160px;
+}
+
+.c1 li {
+    color: black;
+    list-style: none;
+    font-size: 28px;
+    width: 30%;
+    list-style: none;
+
+}
+
+.container4-fluid {
+    margin-left: 0px 60px;
+}
+
+.container4-fluid h1 {
+    text-align: center;
+}
+
+.container4-fluid .row {
+    text-align: center;
+}
+
+.container4-fluid .row .card {
+    margin-top: 10px;
+}
+
+.card {
+    height: 100%;
+
+}
+
+.card-img-top img {
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+
+}
+
+.container5-fluid {
+
+    background-color: gray;
+
+    margin-top: 20px;
+}
+
+.container5-fluid h3 {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(59, 58, 58);
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+
+}
+
+.container5-fluid p {
+    color: white;
+    text-align: center;
+    margin: 50px 0px;
+    background-color: rgb(109, 108, 108);
+
+}
+
+.section-1 {
+
+    background: url(/images/background.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+.section-1-left img {
+    float: left;
+    padding: 50px 50px;
+    width: 317px;
+    height: 450px;
+
+}
+
+.section-1-right {
+    display: inline-flex;
+    margin: 35px 32px;
+
+
+}
+
+
+.link1 ul li {
+    list-style: inside;
+    padding: 10px 0px;
+}
+
+.link1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.link2 ul li {
+    list-style: inside;
+    padding: 10px 0px;
+}
+
+.link2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.section-2 {
+    width: 100%;
+    background: url(/images/background2.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+}
+
+.galley-w {
+    float: left;
+    width: 33%;
+    overflow: hidden;
+    background: #fff url(/images/background3.jpg) center center no-repeat;
+    display: flex;
+    align-items: center;
+    height: 180px;
+}
+
+.galley-w a {
+    margin: 0 auto;
+}
+
+.galley-w1 a img,
+.galley-w a img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+}
+
+.galley-w1 a img:hover,
+.galley-w a img:hover {
+    transform: rotate(6deg) scale(1.5);
+}
+
+.galler-had {
+    margin: 10px 0px 20px 0px;
+}
+
+.galler-had h3 {
+    padding: 0px 8px;
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.view {
+    margin-top: 20px;
+    float: right;
+}
+
+.view a {
+    color: #fff;
+    text-align: right;
+    font-size: 14px;
+}
+
+.testimonial-outer {
+    
+    width: 95%;
+    height: 95%;
+    background: #fff;
+  
+}
+
+.carousel1-item img {
+    width: 31px;
+    height: 24px;
+}
+.carousel1-caption h5{
+text-align: center;
+}
+
+.carousel1-caption p{
+    text-align: center;
+}
+
+.test-head {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.test-head h3 {
+    text-align: center;
+    font-size: 34px;
+    color: #3b4c97;
+    font-weight: normal;
+}
+
+
+.section-3 {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+}
+
+.client-head h3 {
+    margin: 17px;
+    color: #2a292a;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+.item {
+    padding: 50px;
+}
+
+.owl-carousel .owl-item img {
+    background-color: #fff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 85%;
+    max-height: 50%
+}
+
+
+
+.section-4 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container9-fluid {
+    background-color: #0b395b;
+    color: rgb(207, 202, 194);
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col-md-3 {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col-md-3 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding-right: 9px;
+}
+
+.footer-col-md-3 ul {
+    list-style: none;
+
+}
+
+.footer-col-md-3 ul h6 {
+    text-align: left;
+
+}
+
+.footer-col-md-3 ul li a {
+    display: inline-block;
+    color: rgb(175, 170, 170);
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 19px;
+    margin-left: 5px;
+}
+
+.footer-col-md-3 ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.footer-col-md-3 i:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+
+.container9-fluid h6 {
+    text-align: center;
+
+}
+
+.container9-fluid h6 a {
+    color: rgb(226, 196, 113);
+
+}
